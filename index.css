@@ -1,0 +1,72 @@
+
+/* Color Palette for website */
+:root {
+	--background-color: #DDA059;
+	--primary-color: #151152;
+	--accent-1: #FFD921;
+	--accent-2: #59C9F1;
+}
+
+
+html {
+	background-color: var(--background-color);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	width: fit-content;
+	margin: 32px auto;
+	display: flex;
+	border-radius: 16px;
+	border-style: solid;
+	padding: 32px;
+}
+
+header>img {
+	width: 100px;
+	height: 100px;
+}
+ 
+header>h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 64px;
+	margin-left: 48px;
+}
+ 
+main {
+	width: 70%;
+	height: fit-content;
+	margin: auto;
+	background-color: var(--accent-1);
+	padding: 16px;
+	border-style: double;
+	border-width: 4px;
+	border-radius: 16px;
+}
+ 
+.button:hover {
+	scale: 1.1;
+}
+ 
+.button {
+	background-color: var(--accent-2);
+	width: fit-content;
+	border-radius: 64px;
+	padding: 1px 32px;
+	margin: 16px auto;
+	border-style: solid;
+	border-width: 3px;
+}
+ 
+footer {
+	position: absolute;
+	bottom: 0px;
+	align-content: center;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
