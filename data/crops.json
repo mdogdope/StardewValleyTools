@@ -1,0 +1,312 @@
+{
+    "spring": [
+        {
+            "name": "blue jazz",
+            "time": "7",
+            "regrow": "0",
+            "sell": "50",
+            "cost": "30",
+            "quantity": "1"
+        },
+        {
+            "name": "cauliflower",
+            "time": "12",
+            "regrow": "0",
+            "sell": "175",
+            "cost": "80",
+            "quantity": "1"
+        },
+        {
+            "name": "coffee bean",
+            "time": "10",
+            "regrow": "2",
+            "sell": "15",
+            "cost": "0",
+            "quantity": "4"
+        },
+        {
+            "name": "garlic",
+            "time": "4",
+            "regrow": "0",
+            "sell": "60",
+            "cost": "40",
+            "quantity": "1"
+        },
+        {
+            "name": "green bean",
+            "time": "10",
+            "regrow": "0",
+            "sell": "40",
+            "cost": "60",
+            "quantity": "1"
+        },
+        {
+            "name": "kale",
+            "time": "6",
+            "regrow": "0",
+            "sell": "110",
+            "cost": "70",
+            "quantity": "1"
+        },
+        {
+            "name": "parsnip",
+            "time": "4",
+            "regrow": "0",
+            "sell": "35",
+            "cost": "20",
+            "quantity": "1"
+        },
+        {
+            "name": "potato",
+            "time": "6",
+            "regrow": "0",
+            "sell": "80",
+            "cost": "50",
+            "quantity": "1.25"
+        },
+        {
+            "name": "rhubarb",
+            "time": "13",
+            "regrow": "0",
+            "sell": "220",
+            "cost": "100",
+            "quantity": "1"
+        },
+        {
+            "name": "strawberry",
+            "time": "8",
+            "regrow": "0",
+            "sell": "120",
+            "cost": "100",
+            "quantity": "1"
+        },
+        {
+            "name": "tulip",
+            "time": "6",
+            "regrow": "0",
+            "sell": "30",
+            "cost": "20",
+            "quantity": "1"
+        },
+        {
+            "name": "rice",
+            "time": "8",
+            "regrow": "0",
+            "sell": "30",
+            "cost": "40",
+            "quantity": "1"
+        }
+    ],
+    "summer": [
+        {
+            "name": "blueberry",
+            "time": "13",
+            "regrow": "4",
+            "sell": "50",
+            "cost": "80",
+            "quantity": "3"
+        },
+        {
+            "name": "corn",
+            "time": "14",
+            "regrow": "4",
+            "sell": "50",
+            "cost": "150",
+            "quantity": "1"
+        },
+        {
+            "name": "hops",
+            "time": "11",
+            "regrow": "1",
+            "sell": "25",
+            "cost": "60",
+            "quantity": "1"
+        },
+        {
+            "name": "hot pepper",
+            "time": "5",
+            "regrow": "3",
+            "sell": "40",
+            "cost": "40",
+            "quantity": "1"
+        },
+        {
+            "name": "melon",
+            "time": "12",
+            "regrow": "0",
+            "sell": "250",
+            "cost": "80",
+            "quantity": "1"
+        },
+        {
+            "name": "poppy",
+            "time": "7",
+            "regrow": "0",
+            "sell": "140",
+            "cost": "100",
+            "quantity": "1"
+        },
+        {
+            "name": "radish",
+            "time": "6",
+            "regrow": "0",
+            "sell": "90",
+            "cost": "40",
+            "quantity": "1"
+        },
+        {
+            "name": "red cabbage",
+            "time": "9",
+            "regrow": "0",
+            "sell": "260",
+            "cost": "100",
+            "quantity": "1"
+        },
+        {
+            "name": "starfruit",
+            "time": "13",
+            "regrow": "0",
+            "sell": "750",
+            "cost": "400",
+            "quantity": "1"
+        },
+        {
+            "name": "summer spangle",
+            "time": "8",
+            "regrow": "0",
+            "sell": "90",
+            "cost": "50",
+            "quantity": "1"
+        },
+        {
+            "name": "sunflower",
+            "time": "8",
+            "regrow": "0",
+            "sell": "80",
+            "cost": "200",
+            "quantity": "1"
+        },
+        {
+            "name": "tomato",
+            "time": "11",
+            "regrow": "4",
+            "sell": "60",
+            "cost": "50",
+            "quantity": "1"
+        },
+        {
+            "name": "wheat",
+            "time": "4",
+            "regrow": "0",
+            "sell": "25",
+            "cost": "10",
+            "quantity": "1"
+        },
+        {
+            "name": "coffee bean",
+            "time": "10",
+            "regrow": "2",
+            "sell": "15",
+            "cost": "0",
+            "quantity": "4"
+        }
+    ],
+    "fall": [
+        {
+            "name": "amaranth",
+            "time": "7",
+            "regrow": "0",
+            "sell": "150",
+            "cost": "70",
+            "quantity": "1"
+        },
+        {
+            "name": "artichoke",
+            "time": "8",
+            "regrow": "0",
+            "sell": "160",
+            "cost": "30",
+            "quantity": "1"
+        },
+        {
+            "name": "beet",
+            "time": "6",
+            "regrow": "0",
+            "sell": "100",
+            "cost": "20",
+            "quantity": "1"
+        },
+        {
+            "name": "bok choy",
+            "time": "4",
+            "regrow": "0",
+            "sell": "80",
+            "cost": "50",
+            "quantity": "1"
+        },
+        {
+            "name": "cranberries",
+            "time": "7",
+            "regrow": "5",
+            "sell": "75",
+            "cost": "240",
+            "quantity": "2"
+        },
+        {
+            "name": "eggplant",
+            "time": "5",
+            "regrow": "5",
+            "sell": "60",
+            "cost": "20",
+            "quantity": "1"
+        },
+        {
+            "name": "fairy rose",
+            "time": "12",
+            "regrow": "0",
+            "sell": "290",
+            "cost": "200",
+            "quantity": "1"
+        },
+        {
+            "name": "grape",
+            "time": "10",
+            "regrow": "3",
+            "sell": "80",
+            "cost": "60",
+            "quantity": "1"
+        },
+        {
+            "name": "pumpkin",
+            "time": "13",
+            "regrow": "0",
+            "sell": "320",
+            "cost": "100",
+            "quantity": "1"
+        },
+        {
+            "name": "yam",
+            "time": "10",
+            "regrow": "0",
+            "sell": "160",
+            "cost": "60",
+            "quantity": "1"
+        },
+        {
+            "name": "sunflower",
+            "time": "8",
+            "regrow": "0",
+            "sell": "80",
+            "cost": "200",
+            "quantity": "1"
+        },
+        {
+            "name": "corn",
+            "time": "14",
+            "regrow": "4",
+            "sell": "50",
+            "cost": "150",
+            "quantity": "1"
+        }
+    ]
+}

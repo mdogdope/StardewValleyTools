@@ -1,0 +1,89 @@
+
+/* Color Palette for website */
+:root {
+	--background-color: #DDA059;
+	--primary-color: #151152;
+	--accent-1: #FFD921;
+	--accent-2: #59C9F1;
+}
+
+
+
+html {
+	background-color: var(--background-color);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	width: fit-content;
+	margin: 32px auto;
+	display: flex;
+	border-radius: 16px;
+	border-style: solid;
+	padding: 32px;
+}
+
+header>img {
+	width: 100px;
+	height: 100px;
+}
+
+header>h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 64px;
+	margin-left: 48px;
+}
+
+main {
+	width: 70%;
+	height: fit-content;
+	margin: auto;
+	background-color: var(--accent-1);
+	padding: 16px;
+	border-style: double;
+	border-width: 4px;
+	border-radius: 16px;
+}
+
+main>h1 {
+	width: fit-content;
+	margin: auto;
+}
+
+.season-btn {
+	width: 100%;
+	border: solid;
+	background-color: var(--accent-2);
+	font-size: 32px;
+	padding: 16px;
+	margin-top: 16px;
+}
+
+.season-btn::after {
+	content: '+';
+	float: right;
+}
+
+.active::after {
+	content: "\2013";
+	float: right;
+}
+
+.season-content {
+	background-color: var(--accent-2);
+	display: none;
+	margin-bottom: 16px;
+}
+
+footer {
+ 	position: absolute;
+ 	bottom: 0px;
+ 	align-content: center;
+ 	left: 50%;
+ 	transform: translate(-50%, 0%);
+ }
