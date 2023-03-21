@@ -1,15 +1,10 @@
-
 /* Color Palette for website */
 :root {
 	--background-color: #DDA059;
-	--primary:#;
+	--primary-color: #151152;
 	--accent-1: #FFD921;
-	--accent-1-light: #FFEA80;
 	--accent-2: #59C9F1;
-	--accent-2-light: #8AD8F5;
 }
-
-
 
 html {
 	background-color: var(--background-color);
@@ -55,65 +50,36 @@ footer>p {
 main {
 	width: 70%;
 	height: fit-content;
-	
 	margin: auto;
 	background-color: var(--accent-1);
 	padding: 16px;
-	
-	/* Border stuff */
 	border-style: double;
 	border-width: 4px;
 	border-radius: 16px;
 }
 
 main>h1 {
-	width: fit-content;
-	margin: auto;
-	grid-column: 1 / span 5;
-	padding: 16px;
-}
-
-
-
-.seasons {
-	display: grid;
-	grid-template-columns: 30% 3.5% 30% 3.5% 30%;
-	grid-template-rows: 15% 85%;
-	justify-content: center;
-}
-
-.title {
 	text-align: center;
 }
 
-.season {
-	background-color: var(--accent-1-light);
-	
-	height: fit-content;
-	
-	padding: 16px;
-	
-	border-style: solid;
-	border-radius: 16px;
-	border-width: 3px;
+main>p {
+	text-align: center;
 }
 
-.crop {
-	height: 50px;
-	
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	
-	padding: 16px;
-	margin: 2px;
-	
-	border-style: solid;
-}
-
-.crop>img {
+form {
+	width: fit-content;
 	margin: auto;
 }
 
-.crop>p{
-	margin: auto;
+.output {
+	width: fit-content;
+	
+	display: flex;
+	align-items: center;
+	
+	margin: 16px auto;
+}
+
+.output>img {
+	margin: 8px;
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="hayCalc.css">
+	
+	<title>Hay Calculator</title>
+</head>
+<body>
+	<a href="index.html">
+		<header>
+			<img src="pickaxe.png" alt="pickaxe.jpg">
+			<h1>Stardew Valley Tools</h1>
+		</header>
+	</a>
+	<main>
+		<h1>Hay Calculator</h1>
+		<p>This tool will take the number of animals you have and tell you how much hay you will need for winter.</p>
+		<form action="" method="get">
+			<input type="number" name="animalCount" value="0">
+			<input type="button" name="sumbit" value="Submit" onclick="hayCount(this.form)">
+		</form>
+		<div class="output">
+			<img src="images/Hay.png" alt="Hay">
+			<h1 id="output">---</h1>
+		</div>
+	</main>
+	<footer>
+		<p>Made by Mike Heston</p>
+	</footer>
+</body>
+<script>
+	function hayCount(form){
+		var animalCount = form.animalCount.value;
+		var output = document.getElementById("output");
+		output.innerHTML = animalCount*28;
+	}
+</script>
+</html>
